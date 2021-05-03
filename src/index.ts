@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
-import {get, Readable, Writable} from 'svelte/store';
+import {Readable, Writable} from 'svelte/store';
+import {get, readable, writable} from 'svelte/store';
 
 export type Setter<T> = (v: T) => void;
 export type UpdateFn<T> = (v: T) => T;
@@ -19,3 +20,5 @@ export function useWritable<T>(store: Writable<T>): [T, Setter<T>, Updater<T>] {
   const value = useReadable(store);
   return [ value, store.set, store.update ];
 }
+
+export { readable, writable };

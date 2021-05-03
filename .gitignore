@@ -4,3 +4,4 @@ cjs/
 coverage/
 /*js
 /*.d.ts
+!rollup.config.js
