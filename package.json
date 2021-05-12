@@ -1,11 +1,10 @@
 {
   "name": "use-svelte-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Consume svelte-stores from react, with hooks",
-  "main": "cjs/index.js",
-  "module": "dist/index.js",
+  "main": "cjs/svelte-store.js",
+  "module": "es6/svelte-store.js",
   "files": [
-    "dist",
     "cjs",
     "src"
   ],
