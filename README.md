@@ -1,5 +1,5 @@
 # use-svelte-store
-This is fork of (react-use-svelte-store)[https://github.com/Crisfole/react-use-svelte-store] but you don't need svelte in dependency, just do `npm install use-svelte-store`
+This is fork of [react-use-svelte-store](https://github.com/Crisfole/react-use-svelte-store) but you don't need svelte in dependency, just do `npm install use-svelte-store`, play with [example](https://github.com/Kiho/use-svelte-store/example)
 
 # react-use-svelte-store
 
