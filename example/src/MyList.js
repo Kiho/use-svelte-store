@@ -2,7 +2,7 @@ import React from 'react';
 import { useWritable } from 'use-svelte-store';
 import { foos } from './stores/state';
 
-const FooEditor = ({foo, onChange}) => {
+const Foo = ({foo}) => {
   return (
       <div>
         {foo}
@@ -22,14 +22,9 @@ export const MyList = () => {
             }} />
             <ul>
                 {$foos.map((foo, ix) => (
-                    <li key={foo}>
-                        <FooEditor
-                            foo={foo}
-                            onChange={(foo) => {
-                                updateFoos(oldFoos => oldFoos.splice(ix, 1, foo))
-                            }}
-                        />
-                    </li>
+                  <li key={foo}>
+                    <Foo foo={foo} />
+                  </li>
                 ))}
             </ul>
             <button onClick={() => {
