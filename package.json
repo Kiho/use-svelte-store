@@ -1,11 +1,12 @@
 {
   "name": "use-svelte-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Consume svelte-stores from react, with hooks",
   "main": "cjs/svelte-store.js",
   "module": "es6/svelte-store.js",
   "files": [
     "cjs",
+    "es6",
     "src"
   ],
   "scripts": {
@@ -19,7 +20,7 @@
     "dev:esm": "tsc -w",
     "dev:cjs": "tsc -w --project tsconfig.cjs.json",
     "dev": "run-p dev:*",
-    "prepare": "run-s clean build",
+    "prepare": "run-s clean build build-full",
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "keywords": [

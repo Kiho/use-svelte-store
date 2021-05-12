@@ -1,3 +1,6 @@
+# use-svelte-store
+This is fork of (react-use-svelte-store)[https://github.com/Crisfole/react-use-svelte-store] but you don't need svelte in dependency, just do `npm install use-svelte-store`
+
 # react-use-svelte-store
 
 I like [Svelte](svelte.dev). You should too. Sometimes, though, I have to use [React](reactjs.com) for legacy projects or becuase it's what my clients want.
