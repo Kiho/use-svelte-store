@@ -1,6 +1,5 @@
-import {useEffect, useState} from 'react';
-import {Readable, Writable} from 'svelte/store';
-import {get, readable, writable} from 'svelte/store';
+import { useEffect, useState } from 'react';
+import { get, writable, readable, derived, Writable, Readable } from 'svelte/store';
 
 export type Setter<T> = (v: T) => void;
 export type UpdateFn<T> = (v: T) => T;
@@ -21,4 +20,5 @@ export function useWritable<T>(store: Writable<T>): [T, Setter<T>, Updater<T>] {
   return [ value, store.set, store.update ];
 }
 
-export { readable, writable };
+// Re-export svelte's implementations of the stores.
+export { get, writable, readable, derived }

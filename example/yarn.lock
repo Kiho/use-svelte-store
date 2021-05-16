@@ -10884,10 +10884,10 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-use-svelte-store@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/use-svelte-store/-/use-svelte-store-1.0.2.tgz#830439011a42b69f13bf7049ffe5b079e4dccdbc"
-  integrity sha512-pSYYLYcq06kC3PwKfbSz41KXMA1u0yO05MEsdNWx6RUKTPECdZevE60vXxUH2glViz3kjeQ2WW5Wb/7xgFcKUw==
+use-svelte-store@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/use-svelte-store/-/use-svelte-store-1.0.5.tgz#8a4743fbd636650e17630fdbe4642e7b0bff8e6c"
+  integrity sha512-ayvxofFBau4J5Xqd5tEyIcOQ4nVETyVGf+9yEPs8Eg7KilWahebtuKuCvPxiD3JykYJYGVhSJsxfcg1Zcp6oXg==
 
 use@^3.1.0:
   version "3.1.1"
